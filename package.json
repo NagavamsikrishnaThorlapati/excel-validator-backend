@@ -2,9 +2,9 @@
   "name": "excel-validator-backend",
   "version": "1.0.0",
   "scripts": {
-    "start": "nest start",
+    "start": "node dist/main",
     "start:dev": "nest start --watch",
-    "build": "nest build"
+    "build": "npx nest build"
   },
   "dependencies": {
     "@nestjs/cli": "^10.0.0",
